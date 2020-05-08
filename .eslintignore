@@ -1,0 +1,4 @@
+src/shims-vue.d.ts
+src/shims-tsx.d.ts
+src/entry-server.ts
+src/entry-client.ts

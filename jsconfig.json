@@ -1,0 +1,20 @@
+
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@test/*": ["test"],
+      "@images/*": ["src/images"],
+      "@pages/*": ["src/pages"],
+      "@store/*": ["src/store"],
+      "@style/*": ["src/styles"],
+      "@router/*": ["src/router"],
+      "@util/*": ["src/utils"]
+    }
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["src", "test"]
+}
