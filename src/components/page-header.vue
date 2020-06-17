@@ -105,6 +105,9 @@ export default {
     }),
     handleCommand (command) {
       switch (command) {
+      case 'changeSkin':
+        this.navigateToUrl('/user/change/skin')
+        break
       case 'changePwd':
         this.navigateToUrl('/user/change/pwd')
         break

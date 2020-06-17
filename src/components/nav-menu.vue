@@ -2,13 +2,13 @@
   <el-menu
     mode="horizontal"
     :class="{'el-menu__stanalone': stanalone}"
-    default-active="space"
+    default-active="mfs-email"
     @select="handleActive"
   >
     <el-menu-item index="space">
       <span slot="title" class="content"><i class="el-icon-s-home" /><span>空间</span></span>
     </el-menu-item>
-    <el-menu-item index="email">
+    <el-menu-item index="mfs-email">
       <span slot="title" class="content">邮件</span>
     </el-menu-item>
     <el-menu-item index="education">
@@ -41,11 +41,9 @@ export default {
   },
 
   methods: {
-
     handleActive (name) {
       this.navigateToUrl(`/${name}`)
     }
-
   }
 }
 </script>
